@@ -2,18 +2,23 @@
   "name": "markdown",
   "version": "0.1.0",
   "private": true,
+    "homepage": "https://nayifff.github.io/MarkdownPreviewer/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "marked": "^0.6.3",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "react-bootstrap": "^1.0.0-beta.9"
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+
   },
   "eslintConfig": {
     "extends": "react-app"
