@@ -5,7 +5,7 @@
     "homepage": "https://nayifff.github.io/MarkdownPreviewer/",
   "dependencies": {
     "gh-pages": "^2.0.1",
-    "marked": "^0.6.3",
+    "marked": "^4.0.10",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
